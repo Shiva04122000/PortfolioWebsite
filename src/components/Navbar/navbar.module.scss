@@ -1,0 +1,61 @@
+.mobileBox {
+  text-align: center;
+
+  .img {
+    width: 180px;
+  }
+
+  .linkBtn {
+    display: flex;
+    flex-direction: column;
+    color: #111;
+    text-decoration: none;
+    padding: 10px 0px;
+    font-size: 20px;
+  }
+  .cycleDiv {
+    width: 300px;
+    margin: auto;
+  }
+}
+
+.mainBox {
+  display: flex;
+  line-height: 0px;
+  height: 60px;
+
+  .mobileNavbar {
+    color: #6236ff;
+    background-color: #fff;
+  }
+
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .menuIcon {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+
+    .img {
+      width: 8rem;
+    }
+
+    .navBtnActive {
+      color: #6236ff;
+      font-weight: 600;
+      font-family: "Poppins", "sans-serif";
+      // text-decoration: none;
+      
+    }
+    
+    .navBtnPending {
+      color: #6236ff;
+      font-weight: 600;
+      font-family: "Poppins", "sans-serif";
+      text-decoration: none;
+    }
+  }
+}

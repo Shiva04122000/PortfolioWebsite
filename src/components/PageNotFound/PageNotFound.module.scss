@@ -1,0 +1,59 @@
+.mainDiv {
+  height: 100vh;
+  position: relative;
+  background: -webkit-repeating-linear-gradient(
+    -45deg,
+    #71b7e6,
+    #69a6ce,
+    #522882,
+    #fb2e2e,
+    #522882,
+    #69a6ce,
+    #a029a3
+  );
+  background-size: 400%;
+  overflow: hidden;
+
+  .errorPage {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    right: 15%;
+    bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    box-shadow: #0000001a;
+
+
+      .header {
+        font-size: 150px;
+        margin: 0px;
+      }
+
+      .btns {
+        margin: 25px 0;
+        display: inline-flex;
+      }
+
+      .returnBtn {
+        display: inline-block;
+        margin: 0 10px;
+        text-decoration: none;
+        border: 2px solid #69a6ce;
+        color: #69a6ce;
+        font-weight: 500;
+        padding: 10px 25px;
+        border-radius: 25px;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background: #69a6ce;
+          color: #fff;
+        }
+      }
+  }
+}

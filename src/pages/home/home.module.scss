@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+  }
+  .handwave {
+    width: 4rem;
+  }
+  .name {
+    margin-left: 18px;
+    font-family: "Source Serif Pro", serif;
+  }
+  .candiate_img {
+    border-radius: 50%;
+    width: 16rem;
+    height: 16rem;
+    box-shadow: 3px 6px 13px gray;
+    position: relative;
+  }
+  .job_title {
+    margin: 1rem 0rem;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+  }
+  .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+    .icon {
+      width: 4rem;
+      height: 4rem;
+      display: flex;
+      position: relative;
+      overflow: hidden;
+      background-color: #fff;
+      margin: 8px;
+      padding: 2px 5px;
+      border-radius: 50%;
+      box-shadow: 3px 6px 13px gray;
+      text-decoration: none;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home {
+    .title {
+      font-size: 1.6rem;
+      padding: 2rem 0rem;
+    }
+    .candiate_img {
+      width: 12rem;
+      height: 12rem;
+    }
+    .job_title {
+      font-size: 1.5rem;
+    }
+    .icons {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}

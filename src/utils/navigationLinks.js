@@ -1,0 +1,26 @@
+export const  navLinks=[
+    {
+        to:"/",
+        name:'Home'
+    },
+    {
+        to:"/about",
+        name:'About'
+    },
+    {
+        to:"/education",
+        name:'Education'
+    },
+    {
+        to:"/skills",
+        name:'Skills'
+    },
+    {
+        to:"/projects",
+        name:'Projects'
+    },
+    {
+        to:"/contact",
+        name:'Contact'
+    },
+]
